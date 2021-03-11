@@ -2,7 +2,7 @@ Feature: Abrir la URL
 Yo como Usuario del sistema deseo agregar una laptop a mi carrito de compras y verificarlo luego correctamente.
 
 Background: Deseo logearme con usuario creado en la opcion LogIN
-Given Ingreso con mi usuario creado, usuario 'juanitoperez18' y Contraseña '1234567'
+Given Ingreso con mi usuario creado, usuario 'juanitoperez21' y Contraseña '1234567'
 
 @AddCart
 Scenario: AgregarCarrito

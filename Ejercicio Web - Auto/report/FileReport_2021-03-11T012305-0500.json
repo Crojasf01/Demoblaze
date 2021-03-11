@@ -1,0 +1,271 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-11T06:21:20.468Z",
+    "end": "2021-03-11T06:23:05.343Z",
+    "duration": 104875,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "6bffa013-9232-470e-b205-4e121c0e15cb",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "12becc5c-ec33-4af2-927d-054e3a769318",
+        "title": "Abrir la URL",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "Abrir la URL \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 2,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2bf405ac-5238-4eb3-9356-57f3d0f11055",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "Abrir la URL \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 15158,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9f96caa2-2b41-4bf2-8b9b-c81a2a7eba6a",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: Before",
+            "fullTitle": "Abrir la URL \"before each\" hook: Before",
+            "timedOut": false,
+            "duration": 28068,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2a18ec02-5cbf-48d9-9c57-40e78f4452dc",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "Abrir la URL \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "780dfae9-b395-4faf-9a45-04b358fdee11",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "Abrir la URL \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 4177,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "61bd3518-9d49-4d56-8685-9a53c2deeae7",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "Deseo cerrar mi sesion con LogOUT @LogOUT",
+            "fullTitle": "Abrir la URL Deseo cerrar mi sesion con LogOUT @LogOUT",
+            "timedOut": false,
+            "duration": 9591,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0330d31c-d8b8-44bf-ad6c-b4d64bc632fa",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "0330d31c-d8b8-44bf-ad6c-b4d64bc632fa"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 9591,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      },
+      {
+        "uuid": "7fc2cf79-cb00-4acf-9e37-c0511b1bf8e7",
+        "title": "Abrir la URL",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "Abrir la URL \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "a0e04d8c-6a2c-4eba-91b0-6d063fade252",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "Abrir la URL \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 2870,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "973cc1d8-0553-493b-979c-a087f3af035c",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: Before",
+            "fullTitle": "Abrir la URL \"before each\" hook: Before",
+            "timedOut": false,
+            "duration": 13542,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "29bb7624-f25a-4f2f-b267-67f1e94d1958",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "Abrir la URL \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "6cc6ba00-6a72-4b92-b986-39f000f41957",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "Abrir la URL \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 3659,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "fc7cd24c-45d8-4479-970c-8278d3c9e1f6",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "AgregarCarrito @AddCart",
+            "fullTitle": "Abrir la URL AgregarCarrito @AddCart",
+            "timedOut": false,
+            "duration": 27725,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "047f6042-b821-452b-9c19-eb0e973bdca7",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "047f6042-b821-452b-9c19-eb0e973bdca7"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 27725,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 0
+  },
+  "copyrightYear": 2021
+}
